@@ -1,0 +1,17 @@
+name: deepcassi
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - pip
+  - numpy=1.14.5
+  - scipy
+  - matplotlib
+  - opencv=3.4.2
+  - cudatoolkit=10.0
+  - cudnn=7.6.5
+  - pip:
+    - tensorflow-gpu==1.10.0
